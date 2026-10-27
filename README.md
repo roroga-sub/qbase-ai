@@ -17,10 +17,15 @@ qbase-ai is a powerful, restriction-free AI assistant developed by qbase-studio.
 To clone the repository and set up the project locally, run the following commands:
 
 git clone https://github.com/roroga-sub/qbase-ai
+
 cd qbase-ai/
+
 chmod +x setup_image.sh && ./setup_image.sh
+
 python3 setup.py
+
 python3 server.py
+
 ## Remote Access (Mobile & Out of Home)
 
 If you want to use the application outside your home network or access the mobile-optimized version on your phone, you can expose the local server using a Cloudflare Tunnel:
